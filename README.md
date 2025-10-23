@@ -66,6 +66,23 @@ for items
 - Subcategories (Beverages):Hot drinks
 
 - Items (Hot Drinks):Cappuccino
+## Assignment Reflection
+
+## Which database you have chosen and why?
+- I chose MongoDB because it’s flexible and schema-less, which made it easy to model nested data like Categories → Subcategories → Items. Its integration with Mongoose in Node.js allows for easy population of references and validation, which was perfect for this assignment.
+
+## Three things I learned from this assignment:
+- How to design a nested data structure with proper references between categories, subcategories, and items.
+- How to implement dynamic calculations (like tax and total price) based on parent or child objects.
+-How to write RESTful APIs with proper error handling and query features (search by name, get by category/subcategory).
+
+## The most challenging part of the assignment:
+- Designing and linking the nested structure of categories, subcategories, and items while ensuring data validation, proper population, and dynamic tax calculation worked correctly for all cases.
+
+## What I would have done differently given more time:
+- I would have added user authentication, role-based access, and pagination/search optimization for items to make the API more robust and closer to a real-world application.
+
+  
 
 
 
